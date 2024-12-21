@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    flex-grow: 1; /* Allow search container to grow */
+    justify-content: center; /* Center search bar */
+    margin: 0 20px; /* Add space around search bar */
+}
+
+.search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 100%; /* Make search bar fill the space */
+    max-width: 400px; /* Optional: limit the maximum width */
+}
+
+.search-button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #00FF00; /* Neon Green */
+    color: black;
+    cursor: pointer;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    align-items: center; /* Center align items */
+}
+
+.nav-item {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 10px 15px; /* Adjust padding */
+    font-size: 16px; /* Font size for the button */
+    border: none;

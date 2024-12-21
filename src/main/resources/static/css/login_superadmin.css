@@ -1,0 +1,77 @@
+/* login_superadmin.css */
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #003366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+	
+}
+ 
+.login-container {
+    
+	color:white;
+    padding: 50px;
+    border-radius: 8px;
+	box-shadow: 0 0 10px #00ff00;
+    width: 300px;
+    text-align: center;
+ 
+}
+ 
+h2 {
+    margin-bottom: 20px;
+    color: #00ff00; /* Updated color */
+}
+ 
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+ 
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+ 
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff00; /* Updated color */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #003366; /* Updated color */
+}
+ 
+.reset_password a {
+        color: #00ff00; /* Change to your desired color */
+        text-decoration: none; /* Remove underline */
+    }
+
+    .reset_password a:hover {
+        color: #00ff00; /* Change color on hover */
+        text-decoration: underline; /* Add underline on hover */
+    }
+	
+.error {
+	           color: red;
+	           font-weight: bold;
+	           margin-top: 10px;
+	       }

@@ -1,0 +1,81 @@
+body {
+    background-color: #003366; /* Dark blue */
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+ 
+.container {
+    background-color: #003366; /* Dark blue */
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ff00; /* Neon green shadow */
+    width: 300px;
+    text-align: left; /* Align text to the left */
+}
+ 
+h2 {
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}
+ 
+.form-group {
+    margin-bottom: 15px;
+}
+ 
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00ff00; /* Neon green */
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+ 
+.radio-group {
+    display: flex;
+    justify-content: center; /* Center align the radio buttons */
+    align-items: center; /* Center align items vertically */
+    margin-bottom: 15px;
+}
+ 
+.radio-group label {
+    display: flex;
+    align-items: center; /* Center align label text with radio button */
+    margin: 0 10px; /* Reduce distance between radio buttons */
+}
+ 
+.login-button {
+    background-color: #00ff00; /* Neon green */
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+ 
+.login-button:hover {
+    background-color: #00cc00; /* Darker neon green on hover */
+}
+ 
+.register-link {
+    margin-top: 15px;
+    text-align: center; /* Center align the registration link */
+}
+ 
+.register-link a {
+    color: #00ff00; /* Neon green */
+    text-decoration: none; /* Remove underline */
+}
+ 
+.register-link a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+ 
+ 
